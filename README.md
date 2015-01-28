@@ -11,7 +11,7 @@ use iof::func::index;
 
 fn main() {
     let index = index::of("world", "Hello, world!");
-    println!("{}", index_test);
+    println!("{}", index);
 }
 ```
 
