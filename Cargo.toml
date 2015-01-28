@@ -1,0 +1,5 @@
+[package]
+
+name = "iof"
+version = "0.0.1"
+authors = ["Sebastian Berntsson <sebastianberntsson@users.noreply.github.com>"]
