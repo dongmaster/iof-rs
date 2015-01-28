@@ -11,14 +11,12 @@ pub fn of(haystack: &str, needle: &str) -> uint {
         haystack_vec.push(x);
     }
     
-    // New
     for x in needle.chars() {
         needle_vec.push(x);
     }
     
     let haystack_vec_len = haystack_vec.len() - 1;
     
-    // New
     for x in range(0, haystack_vec_len) {
         // Check if the first letter of the needle is the same as the current haystack letter
         // we fast now
